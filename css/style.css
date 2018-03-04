@@ -1,0 +1,127 @@
+.icon {
+  width: 300px;
+  height: 300px;
+}
+
+#smash-logo {
+  border-radius: 50%;
+  background: black;
+}
+
+#smash-logo:before {
+  content: "";
+  display: block;
+  width: 23.77%;
+  height: 100%;
+  background: white;
+  margin-left: 18.39%;
+
+}
+
+#smash-logo:after {
+  display: block;
+  content: "";
+  background: white;
+  width: 100%;
+  height: 9.648%;
+  margin-top: -45.04%;
+}
+
+.hex {
+  margin-top: 70px;
+  width: 208px;
+  height: 120px;
+  background: #7ba9ff;
+  position: relative;
+}
+
+.hex:before, .hex:after {
+  content:"";
+  border-left: 104px solid transparent;
+  border-right: 104px solid transparent;
+  position: absolute;
+}
+
+.hex:before {
+  top: -59px;
+  border-bottom: 60px solid #7ba9ff;
+}
+
+.hex:after {
+  bottom: -59px;
+  border-top: 60px solid #7ba9ff;
+}
+
+.hex.inner {
+  background-color:#aae7ff;
+  -webkit-transform: scale(.91, .91);
+  -moz-transform: scale(.91, .91);
+  transform: scale(.91, .91);
+  z-index:1;
+}
+.hex.inner:before {
+  border-bottom: 60px solid #aae7ff;
+}
+
+.hex.inner:after {
+  border-top: 60px solid #aae7ff;
+}
+
+.hex.inner2 {
+  background-color: #7ba9ff;
+  -webkit-transform: scale(.62, .62);
+  -moz-transform: scale(.62, .62);
+  transform: scale(.62, .62);
+  z-index:2;
+}
+
+.hex.inner2:before {
+  border-bottom: 60px solid  #7ba9ff;
+}
+
+.hex.inner2:after {
+  border-top: 60px solid  #7ba9ff;
+}
+
+.hex.inner3 {
+  background-color:white;
+  -webkit-transform: scale(.82, .82);
+  -moz-transform: scale(.82, .82);
+  transform: scale(.82, .82);
+  z-index:3;
+}
+
+.hex.inner3:before {
+  border-bottom: 60px solid white;
+}
+
+.hex.inner3:after {
+  border-top: 60px solid white;
+}
+
+#pokemon-ball {
+  background: grey;
+  border-radius: 50%;
+}
+
+#pokemon-ball:before {
+  content:"";
+  display: block;  
+  position: relative;
+  top: 43.95605%;
+  height:12.0879%;
+  background: white;
+}
+
+#pokemon-ball:after {
+  content:"";
+  display: block;
+  position: relative;
+  top: 11.4285714%;
+  left: 23.4285714%;;
+  width: 28.5714286%;
+  height: 28.5714286%;
+  border-radius: 50%;
+  background: grey;
+  border: 35.1648352px solid white;
+}
