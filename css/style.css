@@ -1,6 +1,7 @@
 .icon {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
 }
 
 #smash-logo {
@@ -25,6 +26,11 @@
   width: 100%;
   height: 9.648%;
   margin-top: -45.04%;
+}
+
+#shine > .hex {
+  margin-top: 129px !important;
+  margin: 0 auto;
 }
 
 .hex {
@@ -106,22 +112,31 @@
 
 #pokemon-ball:before {
   content:"";
-  display: block;  
-  position: relative;
-  top: 43.95605%;
-  height:12.0879%;
+  display: block;
   background: white;
+  border-radius: 50%;
+  height: 100%;
+   -webkit-transform: scale(.467032967, .467032967);
+  -moz-transform: scale(.467032967, .467032967);
+  transform: scale(.467032967, .467032967);
 }
 
 #pokemon-ball:after {
+  position: relative;
   content:"";
   display: block;
-  position: relative;
-  top: 11.4285714%;
-  left: 23.4285714%;;
-  width: 28.5714286%;
-  height: 28.5714286%;
-  border-radius: 50%;
   background: grey;
-  border: 35.1648352px solid white;
+  top: -113.1868132%;
+  border-radius: 50%;
+  height: 100%;
+   -webkit-transform: scale(0.296703297, 0.296703297);
+  -moz-transform: scale(0.296703297, 0.296703297);
+  transform: scale(0.296703297, 0.296703297);
+}
+
+#pokemon-ball > div {
+  position: relative;
+  background: white;
+  top: -57%;
+  height: 13.1868132%;
 }
