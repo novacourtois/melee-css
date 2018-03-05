@@ -1,13 +1,92 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  color: #2D2A32;
+  font-family: 'Lato';
+}
+
+.wrapper {
+  /*max-width: 1200px;*/
+  margin: 0 auto;
+}
+
+#description {
+  /*background: #eee;*/
+  text-align: center;
+  padding: 5em 0;
+  margin-bottom: 3em;
+}
+
+#description > p {
+  font-size: 1.1em;
+}
+
+#description > h1 {
+  letter-spacing: .3em;
+  color: #CDEDFD;
+  font-weight: 600;
+  font-size: 4.7em;
+  text-transform: uppercase;
+  margin: 1.4rem;
+}
+
+
+.footer {
+  font-weight: 600;
+  margin-top: 3em;
+  text-align: center;
+  padding: 1.5em 0;
+  font-size: 1.1em;
+  /*background: #CDEDFD;*/
+}
+
+.footer > p {
+  color: #2D2A32;
+}
+
+.footer > p > a {
+  color: #2D2A32;
+  text-decoration: none;
+}
+
+.footer > p > a:hover {
+  color: #CDEDFD;
+  text-decoration: none;
+}
+
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon-wrapper {
+  text-align: center;
+  flex: 33%;
+  min-width: 400px;
+  padding: 3em 0;
+
+}
+
+.icon-wrapper > h2 {
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #2D2A32;
+  margin-bottom: 1.3em;
+}
+
 .icon {
   width: 250px;
   height: 250px;
   margin: 0 auto;
+  text-align: left;
 }
 
 #smash-logo {
   border-radius: 50%;
-  background: black;
+  background: #2D2A32;
 }
+
 
 #smash-logo:before {
   content: "";
@@ -28,6 +107,10 @@
   margin-top: -45.04%;
 }
 
+#shine {
+  margin-top: -29.5px;
+  margin-bottom: -59px;
+}
 #shine > .hex {
   margin-top: 129px !important;
   margin: 0 auto;
@@ -106,7 +189,7 @@
 }
 
 #pokemon-ball {
-  background: grey;
+  background: #858789;
   border-radius: 50%;
 }
 
@@ -125,7 +208,7 @@
   position: relative;
   content:"";
   display: block;
-  background: grey;
+  background: #858789;
   top: -113.1868132%;
   border-radius: 50%;
   height: 100%;
