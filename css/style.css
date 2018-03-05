@@ -3,6 +3,8 @@ html, body {
   margin: 0;
   color: #2D2A32;
   font-family: 'Lato';
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -235,11 +237,4 @@ html, body {
   background: white;
   top: -57%;
   height: 13.1868132%;
-}
-
-.turnip {
-  border-radius: 7% 70% 100% 70%;
-  border: 2px solid #2D2A32;
-  transform: rotate(-135deg);
-  margin-top: 20px;
 }
