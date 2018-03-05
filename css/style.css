@@ -112,6 +112,24 @@ html, body {
   margin-top: -29.5px;
   margin-bottom: -59px;
 }
+
+#shine:hover {
+  animation: multishine .2s;
+  animation-iteration-count: 2;
+}
+
+@keyframes multishine {
+  0%,100% {
+    transform: scale(1,1);
+    opacity: 1;
+  }
+  
+  50% {
+    transform: scale(.5,.5);
+    opacity: .3;
+  }
+}
+
 #shine > .hex {
   margin-top: 129px !important;
   margin: 0 auto;
