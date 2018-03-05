@@ -6,12 +6,10 @@ html, body {
 }
 
 .wrapper {
-  /*max-width: 1200px;*/
   margin: 0 auto;
 }
 
 #description {
-  /*background: #eee;*/
   text-align: center;
   padding: 5em 0;
   margin-bottom: 3em;
@@ -31,14 +29,12 @@ html, body {
   margin: 1.4rem;
 }
 
-
 .footer {
   font-weight: 600;
   margin-top: 3em;
   text-align: center;
   padding: 1.5em 0;
   font-size: 1.1em;
-  /*background: #CDEDFD;*/
 }
 
 .footer > p {
@@ -54,7 +50,6 @@ html, body {
   color: #CDEDFD;
   text-decoration: none;
 }
-
 
 .icons {
   display: flex;
@@ -87,7 +82,6 @@ html, body {
   border-radius: 50%;
   background: #2D2A32;
 }
-
 
 #smash-logo:before {
   content: "";
@@ -218,7 +212,7 @@ html, body {
   background: white;
   border-radius: 50%;
   height: 100%;
-   -webkit-transform: scale(.467032967, .467032967);
+  -webkit-transform: scale(.467032967, .467032967);
   -moz-transform: scale(.467032967, .467032967);
   transform: scale(.467032967, .467032967);
 }
@@ -231,7 +225,7 @@ html, body {
   top: -113.1868132%;
   border-radius: 50%;
   height: 100%;
-   -webkit-transform: scale(0.296703297, 0.296703297);
+  -webkit-transform: scale(0.296703297, 0.296703297);
   -moz-transform: scale(0.296703297, 0.296703297);
   transform: scale(0.296703297, 0.296703297);
 }
@@ -241,4 +235,11 @@ html, body {
   background: white;
   top: -57%;
   height: 13.1868132%;
+}
+
+.turnip {
+  border-radius: 7% 70% 100% 70%;
+  border: 2px solid #2D2A32;
+  transform: rotate(-135deg);
+  margin-top: 20px;
 }
